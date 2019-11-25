@@ -56,7 +56,7 @@ class RemovePokeType(Resource):
             return {'status': "successful", "message": "Le type a bien été supprimé"}
         return {
             'status': "error",
-            "message": "Le type voulant être supprimé n'était pas présent"
+            "message": "Le type voulant être supprimé n'est pas présent"
         }
 
 class GetUserInfo(Resource):
